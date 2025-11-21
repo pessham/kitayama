@@ -5,7 +5,12 @@ const Hero = () => {
     return (
         <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-deep-blue">
             {/* Background Image */}
-            <div className="absolute inset-0 z-0">
+            <motion.div
+                className="absolute inset-0 z-0"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 2, ease: "easeOut" }}
+            >
                 <picture>
                     <source media="(max-width: 768px)" srcSet="/images/hero_mobile.jpg" />
                     <img
@@ -15,7 +20,7 @@ const Hero = () => {
                     />
                 </picture>
                 <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f]/20 via-[#0f2e40]/20 to-[#064e3b]/30" />
-            </div>
+            </motion.div>
 
             {/* Bubbles */}
             <div className="absolute inset-0 pointer-events-none overflow-hidden">

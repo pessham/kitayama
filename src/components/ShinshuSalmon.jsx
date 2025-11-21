@@ -18,12 +18,12 @@ const ShinshuSalmon = () => {
             {/* Swimming Salmon Visual */}
             <motion.div
                 style={{ x, y: fishY }}
-                className="absolute top-1/4 md:top-1/3 right-0 md:right-1/4 w-[300px] md:w-[600px] z-0 opacity-60 pointer-events-none"
+                className="absolute top-1/4 md:top-1/3 right-0 md:right-1/4 w-[300px] md:w-[600px] z-0 pointer-events-none"
             >
                 <img
                     src="/images/dish.jpeg"
                     alt="Shinshu Salmon Dish"
-                    className="w-full h-auto object-contain rounded-full blur-[2px]"
+                    className="w-full h-auto object-contain rounded-full shadow-[0_0_50px_rgba(16,185,129,0.2)] saturate-110 brightness-110"
                 />
             </motion.div>
 
@@ -70,7 +70,7 @@ const ShinshuSalmon = () => {
                             <img
                                 src="/images/gyoza.jpeg"
                                 alt="Shinshu Salmon Gyoza"
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 saturate-125 contrast-110 brightness-105"
                             />
                         </div>
                         <div className="p-6 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 w-full">

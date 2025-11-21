@@ -11,7 +11,7 @@ export default {
         'emerald-green': '#10b981',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Zen Kaku Gothic New"', 'sans-serif'],
       },
     },
   },

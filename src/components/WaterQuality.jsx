@@ -45,7 +45,7 @@ const WaterQuality = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <img
-                            src="/images/hero.jpeg"
+                            src="/images/surmon.jpeg"
                             alt="Clear Water and Salmon"
                             className="w-full h-full object-cover"
                         />

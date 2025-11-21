@@ -6,11 +6,14 @@ const Hero = () => {
         <section className="relative h-screen w-full overflow-hidden flex items-center justify-center bg-deep-blue">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
-                <img
-                    src="/images/hero.jpeg"
-                    alt="Kitayama Fish Farm Water"
-                    className="w-full h-full object-cover"
-                />
+                <picture>
+                    <source media="(max-width: 768px)" srcSet="/images/hero_mobile.jpg" />
+                    <img
+                        src="/images/hero.jpeg"
+                        alt="Kitayama Fish Farm Water"
+                        className="w-full h-full object-cover"
+                    />
+                </picture>
                 <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f]/20 via-[#0f2e40]/20 to-[#064e3b]/30" />
             </div>
 

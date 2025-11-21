@@ -9,9 +9,9 @@ const WaterQuality = () => {
                 <img
                     src="/images/surmon.jpeg"
                     alt="Background Texture"
-                    className="w-full h-full object-cover opacity-20"
+                    className="w-full h-full object-cover opacity-40"
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#020617]/80 to-[#020617]" />
+                <div className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#020617]/70 to-[#020617]" />
             </div>
 
             <div className="max-w-4xl w-full relative z-10 text-center">
